@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>
+                <a style="text-decoration: none" href="HomePage.html">KONGU HOSPITAL</a>
+            </h2>
+        </div>
+
+        <div>
+            <h4>Receptionist</h4>
+            <div class="menu">
+                <button onclick="window.location.href = 'AddRecep.html';">Add</button>
+                <button onclick="window.location.href = 'DelRecep.html';">Delete</button>
+                <button onclick="window.location.href = 'UpdRecep.html';">Update</button>
+                <div>
+                <form action="ViewRecep" method="post"><input type="Submit" value="View"></form>
+            </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>Doctor</h4>
+            <div class="menu">
+                <button onclick="window.location.href = 'AddDr.html';">Add</button>
+                <button onclick="window.location.href = 'DelDr.html';">Delete</button>
+                <button onclick="window.location.href = 'UpdDr.html';">Update</button>
+                <div>
+                <form action="ViewDr" method="post"><input type="Submit" value="View"></form>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>Patient/Appointment</h4>
+            <div class="menu">
+                <button onclick="window.location.href = 'AddPt.html';">Add</button>
+                <button onclick="window.location.href = 'DelPt.html';">Delete</button>
+                <button onclick="window.location.href = 'UpdPt.html';">Update</button>
+                <div>
+                <form action="ViewPt" method="post"><input type="Submit" value="View"></form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

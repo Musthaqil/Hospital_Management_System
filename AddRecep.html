@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>Add New Receptionist - Kongu HOSPITAL</title>
+</head>
+<body>
+    <h2>
+        <a style="text-decoration: none" href="HomePage.html">KONGU HOSPITAL</a>
+    </h2>
+    <h3>Add New Receptionist</h3>
+    <form action="AddRecep" method="get">
+        <label for="id">ID:  (ID Number should be in 3 digits)</label>
+        <input type="text" id="id" name="id" required>
+        
+        <label for="name">Name: (Name length should be less than or equal to 40 characters)</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="contact">Contact Number: (10 digit contact number)</label>
+        <input type="text" id="contact" name="cont" required>
+        
+        <label for="pan">PAN Number: (Ex: ABCDE1234M)</label>
+        <input type="text" id="pan" name="pan" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

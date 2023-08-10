@@ -1,0 +1,101 @@
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url("hos.jpg");
+            background-repeat: no-repeat;
+            background-size:cover ;
+            }
+    
+            .container {
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .menu {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-bottom: 20px;
+                
+            }
+            .menu button {
+                display: block;
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 4px;
+                border: none;
+                background-color: #00A8FF;
+                color: #fff;
+                cursor: pointer;
+            
+            }
+            button:hover{
+                background-color: aquamarine;
+            }
+
+            h2 {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            h3 {
+                text-align: center;
+                margin-bottom: 20px;
+                color: #00A8F2;
+            }
+            
+            form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            label {
+                display: block;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+            
+            input[type="text"] {
+                width: 100%;
+                padding: 5px;
+                font-size: 16px;
+            }
+            
+            input[type="submit"] {
+                display: block;
+                margin-top: 20px;
+                padding: 10px 20px;
+                font-size: 16px;
+                border-radius: 4px;
+                border: none;
+                background-color: #00A8FF;
+                color: #fff;
+                cursor: pointer;
+            }
+            input:hover[type="submit"] 
+		{
+			background: aquamarine;
+		}
+            *,
+            *:before,
+            *:after{
+                box-sizing: border-box;
+            }
+            input[type="date"]{
+                background-color: #00A8FF;
+                padding: 3px;
+                font-family: "Roboto Mono",monospace;
+                color: black;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                border-radius: 5px;
+            }
+            ::-webkit-calendar-picker-indicator{
+                background-color: #ffffff;
+                padding: 5px;
+                cursor: pointer;
+                border-radius: 3px;
+            } 
+    
